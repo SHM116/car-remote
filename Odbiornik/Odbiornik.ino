@@ -7,7 +7,7 @@
 
 RF24 radio(CE, CSN);
 const byte address[1] = "001"; // Adres komunikacji (nie wiem co on oznacza ale tak jest w poradniku)
-byte measurement[13];
+float measurement[13];
 
 void setup() {
   Serial.begin(9600);

@@ -18,7 +18,7 @@
 
 CRGB leds[NUM_LEDS];
 
-byte measurement[13];
+float measurement[13];
 
 RF24 radio(CE, CSN);
 const byte address[1] = "001"; // Adres komunikacji (nie wiem co on oznacza ale tak jest w poradniku)
